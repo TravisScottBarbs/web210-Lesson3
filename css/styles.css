@@ -1,56 +1,120 @@
-
 /* Global styles 
 --------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #2C3639;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
+
 img {
     width: 300px;
 }
+
 a {
-    color: #DCD7C9;;
+    color: #DCD7C9;
+    ;
 }
+
 a:hover {
     text-decoration: none;
+}
+
+h1 {
+    font-size: 65px;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+}
+
+.content-wrap {
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 /* Profile
 --------------------------*/
 header {
-    background: #2C3639;
-    color: #DCD7C9;
+    background: rgb(127, 137, 146);
+    color: white;
 }
+
 /* Projects
 --------------------------*/
 .projects {
     background: #ccc5b9;
 }
+
 .projects a {
     color: #9c6cc3;
 }
+
 .projects .btn {
     color: #b75154;
     background: #bdc39d;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
+
 .projects .btn:hover {
     background: rgba(189, 195, 157, .8);
 }
+
+.project-item {
+    padding: 20px 0;
+    border-bottom: 2px dotted black;
+    overflow: hidden;
+}
+
+.project-item img {
+    margin-right: 20px;
+    float: left;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
 /* Work Experience 
 --------------------------*/
 .work-experience {
     background: #c9cba3;
 }
+
 /* Education 
 --------------------------*/
 .education {
-    background: #585123;
+    background: #bebdb7;
 }
+
 /* Contact info
 --------------------------*/
 footer {
-    background: #2C3639;
+    background: #353a3c;
     color: #DCD7C9;
 }
